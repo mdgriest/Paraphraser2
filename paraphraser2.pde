@@ -138,7 +138,7 @@ void fileSelected(File file) {
       //TODO PDF generation not working, only .md for now
       //if (!txtMode) {
       //  String PDFname = fileName.substring(0, fileName.length()-4) + "_paraphrased.pdf";
-      //  String[] command = {"pandoc", "-s", "-o", PDFname, "newFileName"};
+      //  String[] command = {"/usr/local/Cellar/pandoc/1.15.0.6/bin/pandoc", "-s", "-o", PDFname, "newFileName"};
       //  Runtime rt = Runtime.getRuntime();
       //  Process p = rt.exec(command);
       //}
